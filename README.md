@@ -22,7 +22,7 @@ ETL-pipeline-Batch-processing-with-Airflow/
   * **bq.json**: Defines the BigQuery table schema.
   * **udf.js**: Contains JavaScript UDFs for data transformation.
 * **tradingData.csv**: Sample trading data used for testing the pipeline.
-* **README.md**: Provides an overview and instructions for the project.([GitHub][1])
+* **README.md**: Provides an overview and instructions for the project.
 
 ## 🚀 Workflow Overview
 
@@ -38,7 +38,7 @@ ETL-pipeline-Batch-processing-with-Airflow/
 * **Google Cloud Storage (GCS)**: Stores input and processed data files.
 * **Google Cloud Functions**: Executes serverless functions in response to events.
 * **Google Cloud Dataflow**: Processes and transforms data at scale.
-* **BigQuery**: Data warehouse for storing and analyzing processed data.([GitHub][1])
+* **BigQuery**: Data warehouse for storing and analyzing processed data.
 
 ## ⚙️ Setup Instructions
 
@@ -62,7 +62,7 @@ ETL-pipeline-Batch-processing-with-Airflow/
 4. **Set Up Airflow DAG**:
 
    * Deploy `dag.py` to your Cloud Composer environment.
-   * Ensure all necessary connections and variables are configured in Airflow.([GitHub][3])
+   * Ensure all necessary connections and variables are configured in Airflow.
 
 5. **Run the Pipeline**:
 
@@ -81,7 +81,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 For any questions or issues, please open an issue in the repository.
-
-[1]: https://github.com/alaahgag/airflow-ETL-pipeline?utm_source=chatgpt.com "alaahgag/airflow-ETL-pipeline - GitHub"
-[2]: https://github.com/mehroosali/bigquery-sparksql-batch-etl?utm_source=chatgpt.com "BigQuery Spark-SQL Batch ETL - GitHub"
-[3]: https://github.com/oxylabs/building-scraping-pipeline-apache-airflow?utm_source=chatgpt.com "Using Apache Airflow to Build a Pipeline for Scraped Data - GitHub"

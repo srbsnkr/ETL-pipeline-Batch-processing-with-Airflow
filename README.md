@@ -29,7 +29,7 @@ ETL-pipeline-Batch-processing-with-Airflow/
   * **main.py**: Picks up every file uploaded by DAG and process it to create a dataflow job
   * **requirments.txt**: Contains package dependencies to run the main.py.
 * **tradingData.csv**: Sample trading data used for testing the pipeline.
-* **README.md**: Provides an overview and instructions for the project.([GitHub][1])
+* **README.md**: Provides an overview and instructions for the project.
 
 ## 🚀 Workflow Overview
 
@@ -69,7 +69,7 @@ ETL-pipeline-Batch-processing-with-Airflow/
 4. **Set Up Airflow DAG**:
 
    * Deploy `dag.py` to your Cloud Composer environment.
-   * Ensure all necessary connections and variables are configured in Airflow.([GitHub][3])
+   * Ensure all necessary connections and variables are configured in Airflow.
 
 5. **Run the Pipeline**:
 
@@ -83,3 +83,7 @@ ETL-pipeline-Batch-processing-with-Airflow/
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+For any questions or issues, please open an issue in the repository.
